@@ -1,0 +1,587 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+    background: #444;
+    color:#fff;
+    margin: 0;
+}
+
+#contenedor{
+    width: 95%;
+    max-width:1300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+header{
+    height: 80px;
+    background: #000;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 0.63);
+}
+
+header h1{
+    font-size: 50px;
+    line-height:55px;
+}
+
+nav{
+    background: rgb(231, 95, 16);
+    height: 40px;
+    
+}
+
+
+#decoracionnav{
+    height: 5px;
+    background-color: orange
+}
+
+#titulorecomendado{
+    text-align: center;
+    width: 78%;
+    height: 50px;
+    background-color:transparent;
+    margin-bottom: -30px;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+#titulooferta{
+    width: 21%;
+    height: 50px;
+    float: right;
+    background-color:transparent;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+
+#decoracionfooter{
+    height: 5px;
+    background-color: rgb(231, 95, 16);
+}
+
+#contenidoPrincipal{
+    width: 78%;
+    height: 500px;
+    float:left;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background:transparent;
+    box-sizing: border-box;
+    background-image: url(../images/gta5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contenido{
+    width: 100%;
+    height: 500px;
+    float:left;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background:transparent;
+    box-sizing: border-box;
+
+}
+
+
+/* ASIDE */
+
+
+aside.principal{
+    width: 21%;
+    height: 500px;
+    background:transparent;
+    margin-top:30px;
+    margin-bottom: 10px;
+    float:right;
+    background-image: url(../images/pes2016.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+aside{
+    width: 21%;
+    height: 500px;
+    background:orange;
+    margin-top:30px;
+    margin-bottom: 10px;
+    margin-top:3px;
+    float:right;
+    box-sizing: border-box;
+}
+
+
+.aside img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    background: #000;
+    clear:both;
+}
+
+footer h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: Roboto,sans-serif;
+}
+
+
+#header3{
+    margin: left;
+    width: 500px;
+    font-family: Roboto,sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav3 li a{
+    background-color: rgb(231, 95, 16);;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-family: 'Slackey', cursive;
+    padding-top: 7px;
+   
+}
+
+.nav3>li{
+    float: left
+}
+
+.nav3 li ul{
+    display: none;
+    position:absolute;
+    min-width: 140px;
+    
+}
+
+.nav3 li:hover > ul{
+    display: block;
+}
+.nav3 li ul li{
+    position: relative;
+
+
+}
+.nav3 li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+
+
+ div#varios{
+    margin:auto;
+    margin-top:70px;
+    margin-bottom: 10px;
+    width: 1300px;
+    height: 799px;
+    background-color: transparent;
+    overflow: hidden;
+
+    }
+    /* TABLA */
+
+    table{
+     width:99%;
+     height:100% ;
+     background-color: white;
+     text-align: center; 
+     border-collapse: collapse;
+    font-family: 'Slackey', cursive;
+    }
+     
+     th,td{
+     padding: 20px;
+     width: 16%;
+     height: 33%;
+   
+    }
+
+     thead{
+     background-color: rgb(231, 95, 16);
+     border-bottom: solid 5px #000000;
+     color:white;
+     font-size: 22px;
+    
+
+     }
+ 
+ h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+ }
+
+ /* PRIMER FILA JUEGOS */
+
+ #celda-pub{
+    background-image: url(../images/pub.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-ori{
+    background-image: url(../images/ori.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-wrc7{
+    background-image: url(../images/wrc7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-pes2016{
+    background-image: url(../images/pes2016.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-cod{
+    background-image: url(../images/cod.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-mhw{
+    background-image: url(../images/mhw.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+  /* SEGUNDA FILA JUEGOS */
+
+#celda-darksouls{
+    background-image: url(../images/darksouls.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-godofwar{
+    background-image: url(../images/godofwar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-gt6{
+    background-image: url(../images/gt6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-fifa2016{
+    background-image: url(../images/fifa2016.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-hitman{
+    background-image: url(../images/hitman.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-skyrim5{
+    background-image: url(../images/skyrim5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+  /* TERCERA FILA JUEGOS */
+
+#celda-residentevil{
+    background-image: url(../images/residentevil.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-batman{
+    background-image: url(../images/batman.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-nfs{
+    background-image: url(../images/nfs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-nba{
+    background-image: url(../images/nba.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-shadowgun{
+    background-image: url(../images/shadowgun.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ #celda-fortnite{
+    background-image: url(../images/fortnite.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+    /*FORM REGISTER*/
+
+.form_register{
+    width: 98%;
+    max-width: 500px;
+    height: 470px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background:white;  
+}
+.form_titulo{
+    background: rgb(231, 95, 16);
+    color: #fff;
+    padding:20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom:2px solid crimson;
+
+}
+.contenedor-inputs{
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input{
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px  solid darkgray;
+
+}
+.input_50{
+width: 50%;
+}
+.input_100{
+width: 100%;
+ }
+
+ .input_send{
+     background: crimson;
+     color:#fff;
+     margin: auto;
+     margin-top: 20px;
+     padding: 10px 40px;
+     cursor: pointer;
+ }
+.input_send:active{
+         transform: scale(1.05);
+     
+ }
+ .form_link{
+     width: 100%;
+     margin: 7px;
+     font-size: 18px;
+     text-align: center;
+     color:black;
+ }
+
+/*FORM HELP*/
+
+.form_help{
+    width: 98%;
+    max-width: 500px;
+    height: 470px;
+    margin:auto;
+    margin-top: 20px;  
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background:white;  
+}
+.form_titulo{
+    background: rgb(231, 95, 16);
+    color: #fff;
+    padding:20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom:2px solid crimson;
+
+}
+.contenedor-inputs{
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input{
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px  solid darkgray;
+
+}
+
+ .form_link{
+     width: 100%;
+     margin: 3px;
+     font-size: 18px;
+     text-align: center;
+     color:black;
+ }
+ .input_50h{
+    width: 50%;
+    }
+    .input_100h{
+    width: 100%;
+     }
+     .input_sendh{
+        background: crimson;
+        color:#fff;
+        margin: auto;
+        padding: 10px 40px;
+        cursor: pointer;
+    }
+   .input_sendh:active{
+            transform: scale(1.05);
+        
+    
+    }
+    textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        font-family:Arial, Helvetica, sans-serif;
+        max-height:70px  ;
+        min-height:200px;
+        max-width: 100%;
+        min-width: 100%;
+
+
+    }
+
+   .h1{
+    font-family: Roboto,sans-serif; 
+    font-size: 30px;
+    }
+
+
+    /*JUEGOS*/
+
+   #gtav{
+    border-right: 1px solid rgb(255, 255, 255);
+    height: 93%;
+    width: 30%;
+    background-image: url(../images/gtavp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    #pes2016{
+    border-right: 1px solid rgb(255, 255, 255);
+    height: 93%;
+    width: 30%;
+    background-image: url(../images/pes2016-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }  
+
+    /*DIV DERECHA JUEGOS*/
+
+    #derecha{
+
+        background-color: rgb(231, 95, 16);
+        float: right;
+        height:  93%;
+        width: 70%;
+        
+         }
+    #derecha > h3{
+        text-align: left;
+        font-family: Roboto,sans-serif; 
+        color: rgb(131, 17, 17);
+        margin: 10px;
+    }
+    #derecha > p{
+    margin: 10px;
+    }
+
+    #derecha > h3 > a{
+    font-size: 17px;
+    }
+
+    /* BOTON COMPRA JUEGOS */
+    img#boton-gta5{
+        width:130px;
+        display: block;
+        padding-top:20px;
+        }
+    img#boton-pes2016{
+        width:130px;
+        display: block;
+        padding-top:2px;
+         }
+
+    /* MEDIA QUERY PARA GALAXY S5 360X640 */
+
+    @media screen and (max-width:812px){
+
+        header{
+            
+        }
+        body{
+            width: 100%;
+        }
+        aside{
+            width: 100%;
+         
+        }
+        h1{
+           font-size:7px;
+         }
+
+     div#varios{
+         visibility: hidden;
+     }
+        #titulooferta{
+            width: 21%;
+            height: 50px;
+            float: none;
+            background-color:transparent;
+            text-align: center
+        }
+
+        contenidoPrincipal{
+            width: 37px;
+            height: 500px;
+        }
+        aside.principal{
+            width: 100%;
+            height: 500px;
+            margin-top: 0px;
+            
+        }
+     
+    }
+    
+
